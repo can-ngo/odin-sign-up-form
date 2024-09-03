@@ -1,3 +1,14 @@
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
+
+body {
+    background-image: url(jupiter.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+

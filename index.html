@@ -7,6 +7,44 @@
     <title>Jupiter Trip</title>
 </head>
 <body>
+    <div class="header">
+        <h1>Have you ever on a plane?</h1>
+        <h1>You will have a chance to be on a <strong style="color: lightsalmon; font-size: 1.2em;">PLANET</strong></h1>
+        
+    </div>
+    <div>
+        <h2>Let's book a flight !!!</h2>
+        <form action="/somewhere" method="post">
+            <p>
+                <label for="firstname">FIRST NAME</label>
+                <input type="text" id="firstname" name="userFirstName" required>
+            </p>
+            <p>
+                <label for="lastname">LAST NAME</label>
+                <input type="text" id="lastname" name="userLastName" required>
+            </p>
+            <p>
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="userEmail">
+            </p>
+            <p>
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" id="phone" name="userPhone">
+            </p>
+            <p>
+                <label for="pwd">PASSWORD</label>
+                <input type="password" id="pwd" name="userPwd">
+            </p>
+            <p>
+                <label for="confirm-pwd">CONFIRM PASSWORD</label>
+                <input type="password" id="confirm-pwd" name="userConfirmPwd">
+            </p>
+            <p>
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </p>
+        </form>
+    </div>
     
 </body>
 </html>
