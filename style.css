@@ -12,3 +12,68 @@ body {
     color: white;
 }
 
+.header {
+    width: fit-content;
+    margin-left: 50vw;
+    margin-bottom: 4em;
+}
+
+.container {
+    width: fit-content;
+    margin-left: 62vw;
+}
+
+form {
+    width: 320px;
+    height: 460px;
+    text-align: center;
+    padding: 0 20px;
+    border: 1px solid #DEDEDC;
+    border-radius: 10px ;
+    background-image: linear-gradient(80deg,#DEDEDC,#C6844A,black);
+    color: #1C1208;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    height: 2em;
+    border: none;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 2px solid blue;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#pwd:valid,
+#confirm-pwd:valid {
+    border: 2px solid green;
+}
+
+#pwd:invalid,
+#confirm-pwd:invalid {
+    border: 2px solid red
+}
+
+button {
+    width: 100%;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1C1208;
+    color: #DEDEDC;
+}
+
+a {
+    font-weight: 700;
+}
