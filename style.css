@@ -30,7 +30,7 @@ form {
     padding: 0 20px;
     border: 1px solid #DEDEDC;
     border-radius: 10px ;
-    background-image: linear-gradient(80deg,#DEDEDC,#C6844A,black);
+    background-image: linear-gradient(80deg,#DEDEDC,#C6844A,rgba(0,0,0,0.5));
     color: #1C1208;
 }
 
